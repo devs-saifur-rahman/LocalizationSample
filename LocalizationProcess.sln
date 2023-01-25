@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizationProcess", "Loca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalFromMVC", "LocalFromMVC\LocalFromMVC.csproj", "{035B9E56-2E47-48FB-9EF7-19159E22B792}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonBasedLocalization", "JsonBasedLocalization", "{53CB1448-90E2-4C1F-BF8B-BCFF4744CA32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonBasedLocalization.Web", "JsonBasedLocalization.Web\JsonBasedLocalization.Web.csproj", "{314CF745-309C-443B-B6CB-E459599E41FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,16 @@ Global
 		{035B9E56-2E47-48FB-9EF7-19159E22B792}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{035B9E56-2E47-48FB-9EF7-19159E22B792}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{035B9E56-2E47-48FB-9EF7-19159E22B792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314CF745-309C-443B-B6CB-E459599E41FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314CF745-309C-443B-B6CB-E459599E41FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314CF745-309C-443B-B6CB-E459599E41FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314CF745-309C-443B-B6CB-E459599E41FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{314CF745-309C-443B-B6CB-E459599E41FD} = {53CB1448-90E2-4C1F-BF8B-BCFF4744CA32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CE9AB41-DCDC-4622-83F1-A88B22A392D8}
